@@ -22,6 +22,22 @@ The model is trained on neighbouring Mediterranean countries with similar landsc
 
 Tree cover, shrubland, grassland, cropland, built-up, bare or sparse vegetation, water, wetland and other WorldCover classes.
 
+## 🗺️ El-Tarf at a Glance
+
+These maps come from the same internship work and use the same study area. They are built from ESA WorldCover and Landsat data, so they show the reference data and not the output of the Random Forest script. Map labels are in French.
+
+**Land cover (ESA WorldCover 2020, 10 m).** The province covers about 3,580 km², and tree cover makes up about 46% of it.
+
+![Land cover map of El-Tarf from ESA WorldCover](docs/worldcover_el_tarf.png)
+
+**Forest and non-forest.** Forest dominates the centre, south and east, while the west is mostly cropland.
+
+![Forest and non-forest map of El-Tarf](docs/forest_non_forest_el_tarf.png)
+
+**NDVI change, 2000 to 2020.** Mean NDVI rose from about 0.43 to 0.58, with local drops mostly around water bodies and wetlands. The two dates come from different sensors (Landsat 5 and Landsat 8), so part of this gap may be due to the sensor change.
+
+![NDVI change between 2000 and 2020 in El-Tarf](docs/ndvi_change_2000_2020.png)
+
 ## 🚀 How to Run
 
 You need a [Google Earth Engine](https://earthengine.google.com/) account.
