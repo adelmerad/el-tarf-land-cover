@@ -4,7 +4,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Sentinel-2](https://img.shields.io/badge/Sentinel--2-satellite_imagery-1B3A5C)
 
-A Google Earth Engine script that maps land cover in the El-Tarf province of northeastern Algeria from Sentinel-2 imagery, using a Random Forest classifier. Built during an internship at ASAL (Algerian Space Agency).
+A Google Earth Engine script that maps land cover in the El-Tarf province of northeastern Algeria from Sentinel-2 imagery, using a Random Forest classifier. Based on my internship at ASAL (Algerian Space Agency).
 
 ## 🧠 How It Works
 
@@ -24,7 +24,7 @@ Tree cover, shrubland, grassland, cropland, built-up, bare or sparse vegetation,
 
 ## 🗺️ El-Tarf at a Glance
 
-These maps come from the same internship work and use the same study area. They are built from ESA WorldCover and Landsat data, so they show the reference data and not the output of the Random Forest script. Map labels are in French.
+These maps come from my internship work on the same study area. They are built from ESA WorldCover and Landsat data, so they show the reference data and not the output of the Random Forest script. Map labels are in French.
 
 **Land cover (ESA WorldCover 2020, 10 m).** The province covers about 3,580 km², and tree cover makes up about 46% of it.
 
